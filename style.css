@@ -7,14 +7,14 @@
 }
 
 body {
-  background: #0c022b;
+  background: #010005;
   color: #f9f4f4;
   line-height: 1.6;
 }
 
 /* Header + Navigation */
 .header {
-  background:#665c50;
+  background:rgb(147, 123, 113);
   padding: 15px 20px;
   text-align: center;
 }
@@ -29,7 +29,7 @@ body {
 
 .nav a:hover,
 .nav a.active {
-  color:  rgb(187, 91, 50);
+  color:  rgb(150, 71, 38);
 }
 
 /* Hero Section */
@@ -54,7 +54,7 @@ body {
 }
 
 .highlight {
-  color: rgb(215, 184, 171);
+  color: rgb(192, 152, 135);
 }
 
 .hero p {
@@ -71,7 +71,7 @@ body {
 
 .btn {
   margin-top: 20px;
-  background: rgb(187, 91, 50);
+  background: rgb(150, 71, 38);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -82,7 +82,7 @@ body {
 
 .btn:hover {
   background: rgb(250, 250, 249);
-  color: rgb(187, 91, 50);
+  color: rgb(138, 65, 34);
 
 }
 
@@ -98,7 +98,7 @@ body {
 .skills, .certifications, .contact {
   text-align: center;
   padding: 50px 20px;
-  background: #665c50;
+  background:rgb(147, 123, 113);
 }
 
 .skills h2, .certifications h2, .contact h2 {
@@ -183,7 +183,7 @@ body {
 
 /* Typing Effect */
 #typed {
-  border-right: 2px solid  rgb(135, 101, 86);
+  border-right: 2px solid  rgb(147, 123, 113);
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
@@ -192,12 +192,12 @@ body {
 
 @keyframes blink {
   from, to { border-color: transparent; }
-  50% { border-color: rgb(135, 101, 86); }
+  50% { border-color: rgb(147, 123, 113); }
 }
 
 /* Footer */
 .footer {
-  background:#665c50;
+  background:rgb(147, 123, 113);
   color: #fff;
   text-align: center;
   padding: 15px 0;
