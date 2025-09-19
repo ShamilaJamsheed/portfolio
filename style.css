@@ -7,14 +7,14 @@
 }
 
 body {
-  background: #f9f9f9;
-  color: #222;
+  background: #0c022b;
+  color: #f9f4f4;
   line-height: 1.6;
 }
 
 /* Header + Navigation */
 .header {
-  background: #111;
+  background:#665c50;
   padding: 15px 20px;
   text-align: center;
 }
@@ -29,14 +29,14 @@ body {
 
 .nav a:hover,
 .nav a.active {
-  color: #ff6b6b;
+  color:  rgb(187, 91, 50);
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: #fff;
+  background: #0b012e;
 }
 
 .profile-img {
@@ -54,7 +54,7 @@ body {
 }
 
 .highlight {
-  color: #ff6b6b;
+  color: rgb(215, 184, 171);
 }
 
 .hero p {
@@ -63,13 +63,15 @@ body {
 }
 
 .hero-buttons {
+ 
   display: flex;
   justify-content: center;
   gap: 15px;
 }
 
 .btn {
-  background: #ff6b6b;
+  margin-top: 20px;
+  background: rgb(187, 91, 50);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -79,7 +81,9 @@ body {
 }
 
 .btn:hover {
-  background: #e14a4a;
+  background: rgb(250, 250, 249);
+  color: rgb(187, 91, 50);
+
 }
 
 .btn.secondary {
@@ -94,7 +98,7 @@ body {
 .skills, .certifications, .contact {
   text-align: center;
   padding: 50px 20px;
-  background: #f4f4f4;
+  background: #665c50;
 }
 
 .skills h2, .certifications h2, .contact h2 {
@@ -110,7 +114,7 @@ body {
 }
 
 .skill-card {
-  background: white;
+  background: rgb(8, 8, 8);
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
@@ -170,7 +174,7 @@ body {
 }
 
 .project-card {
-  background: white;
+  background: #665c50;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
@@ -179,7 +183,7 @@ body {
 
 /* Typing Effect */
 #typed {
-  border-right: 2px solid #ff6b6b;
+  border-right: 2px solid  rgb(135, 101, 86);
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
@@ -188,12 +192,12 @@ body {
 
 @keyframes blink {
   from, to { border-color: transparent; }
-  50% { border-color: #ff6b6b; }
+  50% { border-color: rgb(135, 101, 86); }
 }
 
 /* Footer */
 .footer {
-  background: #111;
+  background:#665c50;
   color: #fff;
   text-align: center;
   padding: 15px 0;
