@@ -91,7 +91,8 @@ body {
 }
 
 .btn.secondary:hover {
-  background: #555;
+  background: #aeaaaa;
+  color:#010005;
 }
 
 /* Skills Section */
