@@ -95,6 +95,47 @@ body {
   color:#010005;
 }
 
+/*Education*/
+/* ===== Education Section ===== */
+#education {
+  text-align: center;
+  padding: 50px 20px;
+  background:rgb(147, 123, 113);
+}
+
+.edu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.edu-card {
+  background:#0b012e;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.edu-card h3 {
+  font-size: 1.2rem;
+  color:  rgb(138, 65, 34);
+;
+  margin-bottom: 6px;
+}
+
+.edu-card .institute {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+
 /* Skills Section */
 .skills, .certifications, .contact {
   text-align: center;
