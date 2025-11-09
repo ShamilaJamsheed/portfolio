@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "Full Stack Developer",
       "MERN Stack Specialist",
       "React & Node Enthusiast",
-      "Passionate Problem Solver"
+      "Passionate Problem Solver",
+      "Master of Computer Applications 2025",
     ];
 
     let phraseIndex = 0;
@@ -38,13 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
       const targetId = this.getAttribute("href");
       if (targetId.startsWith("#")) {
         e.preventDefault();
         document.querySelector(targetId).scrollIntoView({
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
     });
