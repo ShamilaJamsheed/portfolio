@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "MERN Stack Specialist",
       "React & Node Enthusiast",
       "Passionate Problem Solver",
-      "Master of Computer Applications",
+      "MCA Graduate",
     ];
 
     let phraseIndex = 0;
